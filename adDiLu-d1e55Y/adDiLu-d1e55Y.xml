@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Argumentum 41</title>
+        <author ref="#MartinLuther">Martin Luther</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Argumentum 41</title>
+          <date when="2021-02-22">February 22, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike  4.0  International  (CC  BY-NC-SA  4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>Born Digital</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-02-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="adDiLu-d1e55Y">
+        <head xml:id="adDiLu-d1e55Y-Hd1e102">Argumentum 41</head>
+        <p xml:id="adDiLu-d1e55Y-d1e105">
+          Deus iustificat. 
+          <cit>
+            <quote xml:id="adDiLu-d1e55Y-Qd1e109" source="http://scta.info/resource/Iio4_16">Deus est charitas</quote>
+            <bibl>I Iohannes 4:16</bibl>
+          </cit>. 
+          Ergo charitas iustificat.
+          <!-- paragraph break?-->
+          M.L. Est aequivocatio sophistica.
+          <!-- para break -->
+          Reverende doctor: 
+          hoc dogma est in magistro sententiarum damnatum, 
+          ideo cupio mihi explicari.
+          <!-- para break -->
+          Charitatem fecerunt creatam et increatam. 
+          Charitas, quae est ipse Deus, iustificat, sed creata non iustificat, 
+          nisi in futura vita, ubi erit perfecta charitas. 
+          Iam magister 
+          sententiarum est reprehensus, quod dixerit,
+          <cit>
+            <quote xml:id="adDiLu-d1e55Y-Qd1e124" source="http://scta.info/resource/pll1d17c1-d1e3480" synch="39-51">
+              spiritum sanctum esse 
+              ipsam charitatem in nobis
+            </quote>
+          </cit>, 
+          et non distinxit 
+          inter charitatem infusam et increatam.
+          Sic existimo dixisse.
+          Nam magistrum 
+          sententiarum ad manum non habui.
+          M.L.R 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
